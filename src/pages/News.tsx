@@ -1,7 +1,10 @@
+import { NavbarComponent } from "../components/NavbarComponent"
 
 
 export const News = () => {
   return (
-    <div>News</div>
+    <>
+    <NavbarComponent/>
+    </>
   )
 }

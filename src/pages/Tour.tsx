@@ -1,7 +1,10 @@
+import { NavbarComponent } from "../components/NavbarComponent"
 
 
 export const Tour = () => {
   return (
-    <div>Tour</div>
+    <>
+    <NavbarComponent/>
+    </>
   )
 }

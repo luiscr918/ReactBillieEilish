@@ -25,9 +25,9 @@ export const NavbarComponent = () => {
                         <ul
                             className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
                             <li>
-                                <a href="/index.html"
+                                <Link to={'/'}
                                     className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                                    aria-current="page">Home</a>
+                                    aria-current="page">Home</Link>
                             </li>
                             <li>
                                 <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
@@ -43,9 +43,9 @@ export const NavbarComponent = () => {
                                 <div id="dropdownNavbar"
                                     className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 component-background-billie  dark:divide-white">
                                     <div className="py-1">
-                                        <a href="store.html"
+                                        <Link to={'/store'}
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">All
-                                            Categories</a>
+                                            Categories</Link>
                                     </div>
                                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-400"
                                         aria-labelledby="dropdownLargeButton">
@@ -90,17 +90,17 @@ export const NavbarComponent = () => {
                                 </div>
                             </li>
                             <li>
-                                <a href="/src/pages/postNews.html"
-                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">News</a>
+                                <Link to={'/news'}
+                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">News</Link>
                             </li>
                             <li>
-                                <a href="/src/pages/tour.html"
-                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tour</a>
+                                <Link to={'/tour'}
+                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tour</Link>
                             </li>
                             <li>
-                                <a href="/src/pages/aboutUs.html"
+                                <Link to={'/aboutUs'}
                                     className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
-                                    Us</a>
+                                    Us</Link>
                             </li>
                         </ul>
                     </div>

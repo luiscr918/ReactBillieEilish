@@ -1,7 +1,10 @@
+import { NavbarComponent } from "../components/NavbarComponent"
 
 
 export const AboutUs = () => {
-  return (
-    <div>AboutUs</div>
-  )
+    return (
+        <>
+            <NavbarComponent />
+        </>
+    )
 }
