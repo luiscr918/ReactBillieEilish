@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export const FutterComponent = () => {
   return (
 
-    <footer className="component-background-billie absolute bottom-0 w-full ">
+    <footer className="component-background-billie  ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">

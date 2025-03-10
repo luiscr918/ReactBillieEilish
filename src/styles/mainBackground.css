@@ -4,8 +4,12 @@ html {
 }
 
 body {
-  background: linear-gradient(45deg, #2196f3 0%, rgb(1.0769230769, 11.5769230769, 19.9230769231) 100%);
-  background-size: 200% 200%;
+  background: linear-gradient(
+    45deg,
+    #2196f3 0%,
+    rgb(1.0769230769, 11.5769230769, 19.9230769231) 100%
+  );
+  background-size: 200% 1%;
   height: 100%;
   width: 100%;
   animation: backgroundAnimation 6s ease infinite;
