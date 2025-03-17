@@ -8,7 +8,7 @@ export const Home = () => {
         <>
             <NavbarComponent />
             {/* <!--Mensajito de Introduccion--> */}
-            <div className="bg-transparent">
+            <div className="bg-transparent intoHome">
                 <div className="mx-auto max-w-7xl py-10 lg:py-10 xl:py-10 md:py-10 sm:px-6 sm:py-0 lg:px-8 ">
                     <div
                         className="fondito relative isolate overflow-hidden  px-6 pt-16  sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
