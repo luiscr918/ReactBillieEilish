@@ -21,7 +21,7 @@ export const NavbarComponent = () => {
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                 d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
@@ -44,8 +44,8 @@ export const NavbarComponent = () => {
 
                                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                         fill="none" viewBox="0 0 10 6">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="m1 1 4 4 4-4" />
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                            strokeWidth="2" d="m1 1 4 4 4-4" />
                                     </svg>
                                 </button>
                                 {/* <!-- Dropdown menu --> */}
@@ -59,41 +59,41 @@ export const NavbarComponent = () => {
                                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-400"
                                         aria-labelledby="dropdownLargeButton">
                                         <li>
-                                            <a href="/src/pages/store.html#normalVinyl"
+                                            <Link to="/src/pages/store.html#normalVinyl"
                                                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Normal
-                                                Vinyl</a>
+                                                Vinyl</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#limitedEditionVinyl"
+                                            <Link to="/src/pages/store.html#limitedEditionVinyl"
                                                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Limited
-                                                Edition Vinyl</a>
+                                                Edition Vinyl</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#misteryBoxs"
+                                            <Link to="/src/pages/store.html#misteryBoxs"
                                                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mistery
-                                                Boxs(Only Holidays)</a>
+                                                Boxs(Only Holidays)</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#hoddies"
-                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hoodies</a>
+                                            <Link to="/src/pages/store.html#hoddies"
+                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hoodies</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#oversideTshirst"
+                                            <Link to="/src/pages/store.html#oversideTshirst"
                                                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Overside
-                                                T-shirts</a>
+                                                T-shirts</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#necklaces"
-                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Necklaces</a>
+                                            <Link to="/src/pages/store.html#necklaces"
+                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Necklaces</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#shoes"
-                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Shoes</a>
+                                            <Link to="/src/pages/store.html#shoes"
+                                                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Shoes</Link>
                                         </li>
                                         <li>
-                                            <a href="/src/pages/store.html#signedThings"
+                                            <Link to="/src/pages/store.html#signedThings"
                                                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Signed
-                                                Things</a>
+                                                Things</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -123,7 +123,7 @@ export const NavbarComponent = () => {
                                     className=""></path>
                             </svg>
                         </button>
-                        <a href="/src/pages/carrito.html">
+                        <Link to="/src/pages/carrito.html">
                             <svg className="h-8 p-1   text-white hover:text-blue-500 duration-200 svg-inline--fa fa-shopping-cart fa-w-18 fa-7x" aria-hidden="true"
                                 focusable="false" data-prefix="far" data-icon="shopping-cart" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -131,7 +131,7 @@ export const NavbarComponent = () => {
                                     d="M551.991 64H144.28l-8.726-44.608C133.35 8.128 123.478 0 112 0H12C5.373 0 0 5.373 0 12v24c0 6.627 5.373 12 12 12h80.24l69.594 355.701C150.796 415.201 144 430.802 144 448c0 35.346 28.654 64 64 64s64-28.654 64-64a63.681 63.681 0 0 0-8.583-32h145.167a63.681 63.681 0 0 0-8.583 32c0 35.346 28.654 64 64 64 35.346 0 64-28.654 64-64 0-18.136-7.556-34.496-19.676-46.142l1.035-4.757c3.254-14.96-8.142-29.101-23.452-29.101H203.76l-9.39-48h312.405c11.29 0 21.054-7.869 23.452-18.902l45.216-208C578.695 78.139 567.299 64 551.991 64zM208 472c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm256 0c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm23.438-200H184.98l-31.31-160h368.548l-34.78 160z">
                                 </path>
                             </svg>
-                        </a>
+                        </Link>
                         <button id="botonSesion">
                             <img className="h-9 w-9 min-h-9 min-w-9 p-1 hover:bg-blue-500 duration-200" aria-hidden="true"
                                 src="/src/assets/img/accountIcon.svg" alt="logo de cuenta" />
